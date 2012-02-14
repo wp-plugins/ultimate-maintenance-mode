@@ -39,7 +39,7 @@ Visit http://seedprod.com/support and submit an idea.
 
 = Why is my screenshot not displaying? =
 
-The first time you view the maintenance mode page, the screenshot may not displayed because it is in queue to be processed. It will display once processed.
+The first time you view the maintenance mode page, the screenshot may not display because it is in queue to be processed. It will display once processed.
 
 
 == Screenshots ==
