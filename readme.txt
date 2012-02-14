@@ -6,11 +6,11 @@ Requires at least: 3
 Tested up to: 3.3
 Stable tag: 0.1.0
 
-Displays a screenshot of website with an overlayed window with the reason your site is down.
+Displays a screenshot of your website with an overlayed window with the reason your site is down.
 
 == Description ==
 
-The **Ultimate Maintenance Mode** plugin displays a screenshot of website with an overlayed window with the reason your site is down.
+The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window with the reason your site is down.
 
 ### Features:
 
