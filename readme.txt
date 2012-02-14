@@ -6,11 +6,11 @@ Requires at least: 3
 Tested up to: 3.3
 Stable tag: 0.1.0
 
-Displays a screenshot of website with an overlayed window with the reason your site is down.
+Displays a screenshot of your website with an overlayed window with the reason your site is down.
 
 == Description ==
 
-The **Ultimate Maintenance Mode** plugin displays a screenshot of website with an overlayed window with the reason your site is down.
+The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window with the reason your site is down.
 
 ### Features:
 
@@ -39,7 +39,7 @@ Visit http://seedprod.com/support and submit an idea.
 
 = Why is my screenshot not displaying? =
 
-The first time you view the maintenance mode page, the screenshot may not displayed because it is in queue to be processed. It will display once processed.
+The first time you view the maintenance mode page, the screenshot may not display because it is in queue to be processed. It will display once processed.
 
 
 == Screenshots ==
