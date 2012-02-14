@@ -6,7 +6,7 @@ header('Retry-After: 86400'); // in seconds
 // Load Options & Functions
 $seedprod_maintenancemode_options = get_option('seedprod_maintenancemode_options');
 extract($seedprod_maintenancemode_options);
-$url = home_url();
+$url = home_url().'?mm_preview=bypass';
 //$url = 'http://wordpress.com';
 $mshot = 'http://s.wordpress.com/mshots/v1/'. urlencode($url) .'?w=1600';
 ?>
