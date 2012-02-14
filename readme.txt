@@ -9,7 +9,7 @@ Stable tag: 1.0.0
 Displays a screenshot of your website with an overlayed window with the reason your site is down.
 
 == Description ==
-**There is currently a bug that is keep screenshots from be rendering. This should be fixed soon.**
+**There is currently a bug that is keeping screenshots from be rendering. This should be fixed soon.**
 
 The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window with the reason your site is down.
 
