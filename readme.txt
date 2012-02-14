@@ -6,11 +6,13 @@ Requires at least: 3
 Tested up to: 3.3
 Stable tag: 1.0.1
 
-Displays a screenshot of your website with an overlayed window with the reason your site is down.
+Displays a screenshot of your website with an overlayed window and the reason your site is down.
 
 == Description ==
 
-The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window with the reason your site is down.
+The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window and the reason your site is down.
+
+*   [View a live demo &raquo;](http://pagifyapp.com/?mm_preview=true "Pagify")
 
 ### Features:
 
