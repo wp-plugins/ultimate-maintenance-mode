@@ -4,12 +4,11 @@ Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable
 Requires at least: 3
 Tested up to: 3.3
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 Displays a screenshot of your website with an overlayed window with the reason your site is down.
 
 == Description ==
-**There is currently a bug that is keeping screenshots from be rendering. This should be fixed soon.**
 
 The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window with the reason your site is down.
 
@@ -52,8 +51,14 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed bug where screenshot was not displaying.
+
 = 1.0.0 =
 * Initial Launch
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Fixed bug where screenshot was not displaying.
 * Initial Launch
