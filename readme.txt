@@ -51,7 +51,7 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.0.0 =
 * Initial Launch
 
 == Upgrade Notice ==
