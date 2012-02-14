@@ -19,6 +19,11 @@ if ( ! class_exists( 'SeedProd_Ultimate_Maintenance_Mode' ) ) {
             $seedprod_maintenancemode_options = get_option('seedprod_maintenancemode_options');
             parent::__construct();
             add_filter( 'plugin_action_links', array(&$this,'plugin_action_links'), 10, 2);
+
+            if($_REQUEST['mshot'] == 'true'){
+                return;
+            }
+
             if((isset($seedprod_maintenancemode_options['maintenance_enabled']) && in_array('1',$seedprod_maintenancemode_options['maintenance_enabled'])) || (isset($_GET['mm_preview']) && $_GET['mm_preview'] == 'true')){
                 add_action('template_redirect', array(&$this,'render_maintenancemode_page'));
             }
