@@ -10,6 +10,8 @@ Displays a screenshot of your website with an overlayed window with the reason y
 
 == Description ==
 
+**There is currently a bug that is keep screenshots from be rendering. This should be fixed soon.**
+
 The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window with the reason your site is down.
 
 ### Features:
