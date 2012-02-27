@@ -8,7 +8,11 @@ $seedprod_maintenancemode_options = get_option('seedprod_maintenancemode_options
 extract($seedprod_maintenancemode_options);
 $url = home_url().'/?mshot=true';
 //$url = 'http://wordpress.com';
-$mshot = 'http://s.wordpress.com/mshots/v1/'. urlencode($url) .'?w=1600';
+if(empty($comingsoon_bg_image)){
+	$mshot = 'http://s.wordpress.com/mshots/v1/'. urlencode($url) .'?w=1600';
+}else{
+	$mshot = $comingsoon_bg_image;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +46,11 @@ $mshot = 'http://s.wordpress.com/mshots/v1/'. urlencode($url) .'?w=1600';
 	<body>
 	<div id="mmModal" class="modal hide fade">
 	  <div class="modal-header">
+	  	<?php if(empty($comingsoon_headline)): ?>
 	    <h1><?php echo bloginfo( 'name'); ?> <?php echo __("is Down for Maintenance","ultimate-maintenance-mode"); ?></h1>
+		<?php else: ?>
+		<h1><?php echo $comingsoon_headline; ?></h1>
+		<?php endif; ?>
 	  </div>
 	  <div class="modal-body">
 	    <?php echo wpautop($msg); ?>
