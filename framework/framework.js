@@ -20,13 +20,60 @@ jQuery(document).ready(function($){
         formfield = jQuery('.upload').attr('name');
         tb_show('', 'media-upload.php?type=image&amp;TB_iframe=true');
         return false;
+
+
     });
 
-    window.send_to_editor = function(html) {
-        imgurl = jQuery('img',html).attr('src');
+    window.send_to_editor = function(h) {
+        if(uploadID != ''){
+        imgurl = jQuery('img',h).attr('src');
         uploadID.val(imgurl); /*assign the value to the input*/
         tb_remove();
+        uploadID = '';
+        }else{
+          var ed, mce = typeof(tinymce) != 'undefined', qt = typeof(QTags) != 'undefined';
+
+          if ( !wpActiveEditor ) {
+            if ( mce && tinymce.activeEditor ) {
+              ed = tinymce.activeEditor;
+              wpActiveEditor = ed.id;
+            } else if ( !qt ) {
+              return false;
+            }
+          } else if ( mce ) {
+            if ( tinymce.activeEditor && (tinymce.activeEditor.id == 'mce_fullscreen' || tinymce.activeEditor.id == 'wp_mce_fullscreen') )
+              ed = tinymce.activeEditor;
+            else
+              ed = tinymce.get(wpActiveEditor);
+          }
+
+          if ( ed && !ed.isHidden() ) {
+            // restore caret position on IE
+            if ( tinymce.isIE && ed.windowManager.insertimagebookmark )
+              ed.selection.moveToBookmark(ed.windowManager.insertimagebookmark);
+
+            if ( h.indexOf('[caption') === 0 ) {
+              if ( ed.plugins.wpeditimage )
+                h = ed.plugins.wpeditimage._do_shcode(h);
+            } else if ( h.indexOf('[gallery') === 0 ) {
+              if ( ed.plugins.wpgallery )
+                h = ed.plugins.wpgallery._do_gallery(h);
+            } else if ( h.indexOf('[embed') === 0 ) {
+              if ( ed.plugins.wordpress )
+                h = ed.plugins.wordpress._setEmbed(h);
+            }
+
+            ed.execCommand('mceInsertContent', false, h);
+          } else if ( qt ) {
+            QTags.insertContent(h);
+          } else {
+            document.getElementById(wpActiveEditor).value += h;
+          }
+
+          try{tb_remove();}catch(e){};
+        }
     };
+
     
     // Color Picker
     $('.pickcolor').click( function(e) {
