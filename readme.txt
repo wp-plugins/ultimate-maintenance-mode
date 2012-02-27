@@ -4,7 +4,7 @@ Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable
 Requires at least: 3
 Tested up to: 3.3
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 
 Displays a screenshot of your website with an overlayed window and the reason your site is down.
 
@@ -52,6 +52,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.1.0 =
+* Ability to add a custom headline and background image.
+* Fixed bug in editor to allow image insertion.
 
 = 1.0.1 =
 * Fixed bug where screenshot was not displaying.
@@ -60,6 +63,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+= 1.1.0 =
+* Ability to add a custom headline and background image.
+* Fixed bug in editor to allow image insertion.
 
 = 1.0.1 =
 * Fixed bug where screenshot was not displaying.
