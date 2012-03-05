@@ -12,7 +12,7 @@ Displays a screenshot of your website with an overlayed window and the reason yo
 
 The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window and the reason your site is down.
 
-*   [View a live demo &raquo;](http://pagifyapp.com/?mm_preview=true "Pagify")
+*   [View a live demo &raquo;](http://static.seedprod.com.s3.amazonaws.com/demo/index.html?demo=ultimate-maintenance-mode "SeedProd")
 
 ### Features:
 
