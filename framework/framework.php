@@ -176,7 +176,7 @@ if (!class_exists('SeedProd_Framework_UMM')) {
                     <div id="post-body">
                         <div id="post-body-content" >
                             <div class="meta-box-sortables ui-sortable">
-                                <p>Note: The automatic screenshot is produced from a service on WordPress.com. There is no way to manually refresh the screenshot once taken. WordPress.com should refresh it within a few days.</p>
+                                
                                 <form action="options.php" method="post">
                                 <?php
                                 foreach ($this->options as $v) {
@@ -199,6 +199,7 @@ if (!class_exists('SeedProd_Framework_UMM')) {
                                 ?>
                         		<input name="Submit" type="submit" value="<?php _e('Save Changes', 'ultimate-maintenance-mode') ?>" class="button-primary"/>
                         	    </form>
+                                <p>Note: The automatic screenshot is produced from a service on WordPress.com. There is no way to manually refresh the screenshot once taken. WordPress.com should refresh it within a few days.</p>
                             </div>
                         </div>
                     </div>
