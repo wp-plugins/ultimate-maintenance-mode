@@ -52,6 +52,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.2.0 =
+* Updated title to reflect a custom headline
+
 = 1.1.0 =
 * Ability to add a custom headline and background image.
 * Fixed bug in editor to allow image insertion.
@@ -63,6 +66,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+= 1.2.0 =
+* Updated title to reflect a custom headline
+
 = 1.1.0 =
 * Ability to add a custom headline and background image.
 * Fixed bug in editor to allow image insertion.
