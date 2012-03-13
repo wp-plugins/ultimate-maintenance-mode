@@ -4,7 +4,7 @@ Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable
 Requires at least: 3
 Tested up to: 3.3
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 
 Displays a screenshot of your website with an overlayed window and the reason your site is down.
 
@@ -12,15 +12,15 @@ Displays a screenshot of your website with an overlayed window and the reason yo
 
 The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window and the reason your site is down.
 
-*   [View a live demo &raquo;](http://pagifyapp.com/?mm_preview=true "Pagify")
+*   [View a live demo &raquo;](http://static.seedprod.com.s3.amazonaws.com/demo/index.html?demo=ultimate-maintenance-mode "SeedProd")
 
 ### Features:
 
 *	Works with any WordPress theme
 *	Allows you to work on your site while non logged in visitors see the Mainenance Mode page
 *   Automatically Creates a Screenshot of your Website
-*   Custom Message
-*   Returns a 503 http status header so search engines know your site is down.
+*   Ability to add a Custom Headline, Message & Background Image
+*   Returns a 503 http status and retry header so search engines know your site is down.
 *   Simple and Easy to Use
 *	Multisite Support
 *	Translation Ready - i18n Support

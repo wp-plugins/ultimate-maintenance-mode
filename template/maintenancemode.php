@@ -13,13 +13,19 @@ if(empty($comingsoon_bg_image)){
 }else{
 	$mshot = $comingsoon_bg_image;
 }
+
+if(empty($comingsoon_headline)){
+	$title = 'Down for Maintenance - ' . get_bloginfo( 'name');
+}else{
+	$title = $comingsoon_headline;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Down for Maintenance - <?php bloginfo( 'name'); ?></title>
+		<title><?php echo $title; ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="<?php echo includes_url(); ?>js/jquery/jquery.js"></script>
 		<script src="<?php echo plugins_url('bootstrap/js/bootstrap.js',__FILE__); ?>"></script>

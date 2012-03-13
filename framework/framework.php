@@ -114,6 +114,8 @@ if (!class_exists('SeedProd_Framework_UMM')) {
         		<div id="poststuff" class="metabox-holder has-right-sidebar">
                     <div id="side-info-column" class="inner-sidebar">
                         <div id="side-sortables" class="meta-box-sortables ui-sortable">
+                            <a href="http://seedprod.com/product/coming-soon-pro-plugin/?utm_source=plugin&utm_medium=banner&utm_campaign=maintenance-mode-in-plugin-banner" target="_top"><img src="http://static.seedprod.com/ads/coming-soon-pro-sidebar.png" /></a>
+                            <br><br>
                             <div class="postbox support-postbox">
                                 <div class="handlediv" title="Click to toggle"><br /></div>
                 				<h3 class="hndle"><span><?php _e('Plugin Support', 'ultimate-maintenance-mode') ?></span></h3>
@@ -174,6 +176,7 @@ if (!class_exists('SeedProd_Framework_UMM')) {
                     <div id="post-body">
                         <div id="post-body-content" >
                             <div class="meta-box-sortables ui-sortable">
+                                
                                 <form action="options.php" method="post">
                                 <?php
                                 foreach ($this->options as $v) {
@@ -196,6 +199,7 @@ if (!class_exists('SeedProd_Framework_UMM')) {
                                 ?>
                         		<input name="Submit" type="submit" value="<?php _e('Save Changes', 'ultimate-maintenance-mode') ?>" class="button-primary"/>
                         	    </form>
+                                <p>Note: The automatic screenshot is produced from a service on WordPress.com. There is no way to manually refresh the screenshot once taken. WordPress.com should refresh it within a few days.</p>
                             </div>
                         </div>
                     </div>
