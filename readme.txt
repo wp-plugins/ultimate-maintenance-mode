@@ -19,8 +19,8 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 *	Works with any WordPress theme
 *	Allows you to work on your site while non logged in visitors see the Mainenance Mode page
 *   Automatically Creates a Screenshot of your Website
-*   Custom Message
-*   Returns a 503 http status header so search engines know your site is down.
+*   Ability to add a Custom Headline, Message & Background Image
+*   Returns a 503 http status and retry header so search engines know your site is down.
 *   Simple and Easy to Use
 *	Multisite Support
 *	Translation Ready - i18n Support
