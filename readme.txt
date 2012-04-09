@@ -52,6 +52,11 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.3.0 =
+* Added Adminbar Notification
+* Added IE 7 and 8 Full Background Support
+* Added Powered By Link ID
+
 = 1.2.0 =
 * Updated title to reflect a custom headline
 
@@ -66,6 +71,10 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+* Added Adminbar Notification
+* Added IE 7 and 8 Full Background Support
+* Added Powered By Link ID
+
 = 1.2.0 =
 * Updated title to reflect a custom headline
 

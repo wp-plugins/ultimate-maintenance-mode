@@ -28,6 +28,7 @@ if(empty($comingsoon_headline)){
 		<title><?php echo $title; ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="<?php echo includes_url(); ?>js/jquery/jquery.js"></script>
+		<script src="<?php echo plugins_url('template/script.js',dirname(__FILE__)); ?>"></script>
 		<script src="<?php echo plugins_url('bootstrap/js/bootstrap.js',__FILE__); ?>"></script>
 		<link rel="stylesheet" href="<?php echo plugins_url('bootstrap/css/bootstrap.min.css',__FILE__); ?>">
 		<link rel="stylesheet" href="<?php echo plugins_url('bootstrap/css/bootstrap-responsive.min.css',__FILE__); ?>">
@@ -39,9 +40,10 @@ if(empty($comingsoon_headline)){
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-position: top center;
-			background-size:cover;
-			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?php echo $mshot; ?>', sizingMethod='scale');
-			-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='<?php echo $mshot; ?>', sizingMethod='scale')";
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
 			text-align: center;
 		}
 		body p{
@@ -61,6 +63,18 @@ if(empty($comingsoon_headline)){
 	  <div class="modal-body">
 	    <?php echo wpautop($msg); ?>
 	  </div>
+	    <?php if($seedprod_maintenancemode_options['comingsoon_footer_credit']){ 
+	    if(!empty($seedprod_maintenancemode_options['comingsoon_affiliate_id']) && is_numeric($seedprod_maintenancemode_options['comingsoon_affiliate_id'])){
+	      $powered_by_url = "https://www.e-junkie.com/ecom/gb.php?cl=187765&c=ib&aff=".$seedprod_maintenancemode_options['comingsoon_affiliate_id'];
+	    }else{
+	      $powered_by_url = "http://www.seedprod.com/";
+	    }
+	  ?>
+	  <div class="modal-footer">
+	  <a href="<?php echo $powered_by_url; ?>" target="_blank">
+	  <img id="credit" src="<?php echo plugins_url('ultimate-maintenance-mode',dirname('.'))."/framework/seedprod-footer-logo-gray.png" ?>" alt="Powered by SeedProd" /></a>
+	  </div><!-- .modal-footer -->
+	  <?php } ?>
 	</div>
 	<script>
 	jQuery(document).ready(function($){
@@ -73,6 +87,21 @@ if(empty($comingsoon_headline)){
 		
 	});
 	</script>
+	  <!--[if lt IE 9]>
+	  <script>
+	  jQuery(document).ready(function($){
+	    <?php
+	    if(!empty($mshot)):
+	    ?>
+	    $.supersized({
+	      slides:[ {image : '<?php echo $mshot; ?>'} ]
+	    });
+	    <?php
+	    endif;
+	    ?>
+	  });
+	  </script>
+	  <![endif]-->
 	</body>
 </html>
 <?php exit(); ?>

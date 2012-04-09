@@ -26,9 +26,30 @@ if ( ! class_exists( 'SeedProd_Ultimate_Maintenance_Mode' ) ) {
 
             if((isset($seedprod_maintenancemode_options['maintenance_enabled']) && in_array('1',$seedprod_maintenancemode_options['maintenance_enabled'])) || (isset($_GET['mm_preview']) && $_GET['mm_preview'] == 'true')){
                 add_action('template_redirect', array(&$this,'render_maintenancemode_page'));
+                add_action( 'admin_bar_menu',array( &$this, 'admin_bar_menu' ), 1000 );
             }
 
         }
+
+
+        /**
+        * Display admin bar when active
+        */
+
+        function admin_bar_menu(){
+            global $wp_admin_bar;
+
+            /* Add the main siteadmin menu item */
+                $wp_admin_bar->add_menu( array(
+                    'id'     => 'debug-bar',
+                    'href' => admin_url().'options-general.php?page=seedprod_maintenance_mode',
+                    'parent' => 'top-secondary',
+                    'title'  => apply_filters( 'debug_bar_title', __('Maintenance Mode Active', 'ultimate-maintenance-mode') ),
+                    'meta'   => array( 'class' => 'umm-mode-active' ),
+                ) );
+        }
+
+
         /**
          * Display the maintenance mode page
          */
@@ -70,7 +91,7 @@ if ( ! class_exists( 'SeedProd_Ultimate_Maintenance_Mode' ) ) {
  */
 $seedprod_umm = new SeedProd_Ultimate_Maintenance_Mode ();
 $seedprod_umm->plugin_type = 'free';
-$seedprod_umm->plugin_short_url = 'http://bit.ly/wW7vGj';
+$seedprod_umm->plugin_short_url = 'http://bit.ly/yFsZsG';
 $seedprod_umm->plugin_name = __('Maintenance Mode', 'ultimate-maintenance-mode');
 $seedprod_umm->menu[] = array("type" => "add_options_page",
                          "page_name" => __("Maintenance Mode", 'ultimate-maintenance-mode'),
@@ -135,5 +156,21 @@ $seedprod_umm->options[] = array( "type" => "wpeditor",
 				"section_id" => "seedprod_section_maintenance_mode",
 				"setting_id" => "seedprod_maintenancemode_options",
 				);
+$seedprod_umm->options[] = array( "type" => "radio",
+                "id" => "comingsoon_footer_credit",
+                "label" => __("Powered By SeedProd", 'ultimate-maintenance-mode'),
+                "option_values" => array('0'=>__('Nope - Got No Love', 'ultimate-coming-soon-page'),'1'=>__('Yep - I Love You Man', 'ultimate-coming-soon-page')),
+                "desc" => __("Can we show a <strong>cool stylish</strong> footer credit at the bottom the page.", 'ultimate-coming-soon-page'),
+                "default_value" => "0",
+                "section_id" => "seedprod_section_maintenance_mode",
+                "setting_id" => "seedprod_maintenancemode_options",
+                );  
+$seedprod_umm->options[] = array( "type" => "textbox",
+                "id" => "comingsoon_affiliate_id",
+                "label" => __("Powered By SeedProd Affiliate ID", 'ultimate-maintenance-mode'),
+                "desc" => __("Enter your affiliate ID and earn commisions on sales referred to SeedProd from your page. <a href='http://www.seedprod.com/affiliates/' target='_blank'>Learn More</a>. ", 'ultimate-coming-soon-page'),
+                "section_id" => "seedprod_section_maintenance_mode",
+                "setting_id" => "seedprod_maintenancemode_options",
+                );  
 
 				
