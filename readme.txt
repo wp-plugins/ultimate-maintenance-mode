@@ -4,7 +4,7 @@ Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable
 Requires at least: 3
 Tested up to: 3.3
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 
 Displays a screenshot of your website with an overlayed window and the reason your site is down.
 
