@@ -2,9 +2,9 @@
 Contributors: johnnytee
 Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable
-Requires at least: 3
+Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.3.1
+Stable tag: 1.4
 
 Displays a screenshot of your website with an overlayed window and the reason your site is down.
 
@@ -24,6 +24,11 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 *   Simple and Easy to Use
 *	Multisite Support
 *	Translation Ready - i18n Support
+*   [Upgrade to the Pro Version with ton more features!&raquo;](http://www.seedprod.com/?utm_source=wordpress.org&utm_medium=link&utm_campaign=maintenance-mode-from-wordpress.org)
+
+**Included Translations:**
+
+* Turkish(tr_TR) by Kazancexpert
 
 == Installation ==
 
@@ -52,6 +57,10 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.4 =
+* Fix an undefined index warning
+* Added tr_TR Turkish translation
+
 = 1.3.1 =
 * Added Adminbar Notification
 * Added IE 7 and 8 Full Background Support
@@ -71,6 +80,10 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+= 1.4 =
+* Fix an undefined index warning
+* Added tr_TR Turkish translation
+
 = 1.3.1 =
 * Added Adminbar Notification
 * Added IE 7 and 8 Full Background Support
