@@ -4,7 +4,7 @@ Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.4
+Stable tag: 1.4.0
 
 Displays a screenshot of your website with an overlayed window and the reason your site is down.
 
@@ -57,7 +57,7 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
-= 1.4 =
+= 1.4.0 =
 * Fix an undefined index warning
 * Added tr_TR Turkish translation
 
@@ -80,7 +80,7 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
-= 1.4 =
+= 1.4.0 =
 * Fix an undefined index warning
 * Added tr_TR Turkish translation
 
