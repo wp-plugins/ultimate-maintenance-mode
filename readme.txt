@@ -6,7 +6,7 @@ Requires at least: 3.3
 Tested up to: 3.3
 Stable tag: 1.4.1
 
-Displays a screenshot of your website with an overlayed window and the reason your site is down.
+Work on your website behinds the scenes while you display a Maintenance Mode page to your visitors.
 
 == Description ==
 
