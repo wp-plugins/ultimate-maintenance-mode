@@ -6,7 +6,7 @@ Requires at least: 3.3
 Tested up to: 3.3
 Stable tag: 1.4.1
 
-Displays a screenshot of your website with an overlayed window and the reason your site is down.
+Work on your website behinds the scenes while you display a Maintenance Mode page to your visitors.
 
 == Description ==
 
@@ -17,8 +17,8 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 ### Features:
 
 *	Works with any WordPress theme
-*	Allows you to work on your site while non logged in visitors see the Mainenance Mode page
-*   Automatically Creates a Screenshot of your Website
+*	Allows you to work on your site while non logged in visitors see the Maintenance Mode page
+*   Automatically Creates a Screenshot of your Website and uses it as the background for your maintenance mode page.
 *   Ability to add a Custom Headline, Message & Background Image
 *   Returns a 503 http status and retry header so search engines know your site is down.
 *   Simple and Easy to Use
