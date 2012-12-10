@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: johnnytee
 Donate link: http://seedprod.com/donate/
-Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable
+Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable, launch, landing page
 Requires at least: 3.3
-Tested up to: 3.3
-Stable tag: 1.4.1
+Tested up to: 3.3.2
+Stable tag: 1.4.2
 
 Work on your website behinds the scenes while you display a Maintenance Mode page to your visitors.
 
@@ -29,6 +29,7 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 **Included Translations:**
 
 * Turkish(tr_TR) by Kazancexpert
+* Italian (it_IT) by Luca Barbetti
 
 == Installation ==
 
@@ -57,6 +58,10 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.4.2 =
+* Added Italian Translation
+* Updated Bootstrap Version
+
 = 1.4.1 =
 * Fix Version Number
 
@@ -83,6 +88,10 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+= 1.4.2 =
+* Added Italian Translation
+* Updated Bootstrap Version
+
 = 1.4.1 =
 * Fix Version Number
 
