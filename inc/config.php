@@ -166,12 +166,12 @@ $seedprod_umm->options[] = array( "type" => "radio",
                 "section_id" => "seedprod_section_maintenance_mode",
                 "setting_id" => "seedprod_maintenancemode_options",
                 );  
-$seedprod_umm->options[] = array( "type" => "textbox",
-                "id" => "comingsoon_affiliate_id",
-                "label" => __("Powered By SeedProd Affiliate ID", 'ultimate-maintenance-mode'),
-                "desc" => __("Enter your affiliate ID and earn commisions on sales referred to SeedProd from your page. <a href='http://www.seedprod.com/affiliates/' target='_blank'>Learn More</a>. ", 'ultimate-coming-soon-page'),
-                "section_id" => "seedprod_section_maintenance_mode",
-                "setting_id" => "seedprod_maintenancemode_options",
-                );  
+// $seedprod_umm->options[] = array( "type" => "textbox",
+//                 "id" => "comingsoon_affiliate_id",
+//                 "label" => __("Powered By SeedProd Affiliate ID", 'ultimate-maintenance-mode'),
+//                 "desc" => __("Enter your affiliate ID and earn commisions on sales referred to SeedProd from your page. <a href='http://www.seedprod.com/affiliates/' target='_blank'>Learn More</a>. ", 'ultimate-coming-soon-page'),
+//                 "section_id" => "seedprod_section_maintenance_mode",
+//                 "setting_id" => "seedprod_maintenancemode_options",
+//                 );  
 
 				
