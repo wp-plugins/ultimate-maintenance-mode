@@ -111,27 +111,13 @@ if (!class_exists('SeedProd_Framework_UMM')) {
         	<div class="wrap seedprod">
         	    <?php screen_icon(); ?>
         		<h2><?php echo $this->plugin_name; ?> </h2>
-        		<?php settings_errors(); ?> 
+        		<?php //settings_errors(); ?> 
         		<div id="poststuff" class="metabox-holder has-right-sidebar">
                     <div id="side-info-column" class="inner-sidebar">
                         <div id="side-sortables" class="meta-box-sortables ui-sortable">
                             <a href="http://www.seedprod.com/?utm_source=plugin&utm_medium=banner&utm_campaign=maintenance-mode-in-plugin-banner" target="_blank"><img src="http://static.seedprod.com/ads/coming-soon-pro-sidebar.png" /></a>
                             <br><br>
-                            <div class="postbox support-postbox">
-                                <div class="handlediv" title="Click to toggle"><br /></div>
-                				<h3 class="hndle"><span><?php _e('Plugin Support', 'ultimate-maintenance-mode') ?></span></h3>
-                				<div class="inside">
-                					<div class="support-widget">
-                					<p>
-                					   <?php _e('Got a Question, Idea, Problem or Praise?') ?>
-                					</p>
-                					<ul>
-                					    <li>&raquo; <a href="<?php echo (empty($this->plugin_support_url) ? 'http://seedprod.com/support/' : $this->plugin_support_url) ?>" target="_blank"><?php _e('Support Request', 'ultimate-maintenance-mode') ?></a></li>
-                				    </ul>
-                					
-                					</div>
-                				</div>
-                            </div>
+
                             <?php if($this->plugin_type != 'pro'){ ?>
                             <div class="postbox like-postbox">
                                 <div class="handlediv" title="Click to toggle"><br /></div>
