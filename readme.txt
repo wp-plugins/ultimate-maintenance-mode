@@ -29,7 +29,8 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 **Included Translations:**
 
 * Turkish(tr_TR) by Kazancexpert
-* Italian (it_IT) by Luca Barbetti
+* Italian(it_IT) by Luca Barbetti
+* French(fr_FR) by fxbenard
 
 == Installation ==
 
@@ -58,6 +59,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.4.4=
+* Feature: Added French Translation
+
 = 1.4.3 =
 * Removed Duplicate Saving Notification
 * Update to 3.5.0 compatability
