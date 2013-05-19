@@ -58,6 +58,9 @@ if ( ! class_exists( 'SeedProd_Ultimate_Maintenance_Mode' ) ) {
             $seedprod_maintenancemode_options = get_option('seedprod_maintenancemode_options'); 
             extract($seedprod_maintenancemode_options);
 
+            if(preg_match("/login/i",$_SERVER['REQUEST_URI']) > 0){
+                return false;
+            }
 
             if(!is_admin()){
                 

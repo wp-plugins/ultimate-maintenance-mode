@@ -4,7 +4,7 @@ Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable, launch, landing page
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.4.4
+Stable tag: 1.5.0
 
 Work on your website behinds the scenes while you display a Maintenance Mode page to your visitors.
 
@@ -12,6 +12,7 @@ Work on your website behinds the scenes while you display a Maintenance Mode pag
 
 The **Ultimate Maintenance Mode** plugin displays a screenshot of your website with an overlayed window and the reason your site is down.
 
+*   [Upgrade to the Pro Version Now!&raquo;](http://www.seedprod.com?utm_source=wordpress.org&utm_medium=link&utm_campaign=ultimate-maintentance-mode-from-wordpress.org)
 *   [View a live demo &raquo;](http://static.seedprod.com.s3.amazonaws.com/demo/index.html?demo=ultimate-maintenance-mode "SeedProd")
 
 ### Features:
@@ -59,6 +60,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.5.0 =
+* Added: Support for Theme my Login and other custom login plugins
+
 = 1.4.4=
 * Feature: Added French Translation
 
@@ -96,6 +100,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+= 1.5.0 =
+* Added: Support for Theme my Login and other custom login plugins
+
 = 1.4.3 =
 * Removed Duplicate Saving Notification
 * Update to 3.5.0 compatability
