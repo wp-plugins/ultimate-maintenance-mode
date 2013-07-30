@@ -29,7 +29,7 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 
 **Included Translations:**
 
-* Turkish(tr_TR) by Kazancexpert
+* Turkish(tr_TR) by [Hakan Er](hakanertr.wordpress.com)
 * Italian(it_IT) by Luca Barbetti
 * French(fr_FR) by fxbenard
 * Persian(fa_IR) by [rushearn](http://rushearn.com)
