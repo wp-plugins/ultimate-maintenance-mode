@@ -6,7 +6,16 @@ header('Retry-After: 86400'); // in seconds
 // Load Options & Functions
 $seedprod_maintenancemode_options = get_option('seedprod_maintenancemode_options');
 extract($seedprod_maintenancemode_options);
-$url = home_url().'/?mshot=true';
+// Generate password for mshot
+$pass = get_option('seedprod_maintenancemode_mshot_pass');
+
+if(empty($pass)){
+	$pass = wp_generate_password(12,false);
+	update_option('seedprod_maintenancemode_mshot_pass',$pass);
+}
+
+
+$url = home_url().'/?mshot='+$pass;
 //$url = 'http://wordpress.com';
 if(empty($comingsoon_bg_image)){
 	$mshot = 'http://s.wordpress.com/mshots/v1/'. urlencode($url) .'?w=1600';

@@ -19,9 +19,16 @@ if ( ! class_exists( 'SeedProd_Ultimate_Maintenance_Mode' ) ) {
             $seedprod_maintenancemode_options = get_option('seedprod_maintenancemode_options');
             parent::__construct();
             add_filter( 'plugin_action_links', array(&$this,'plugin_action_links'), 10, 2);
-            if( isset($_REQUEST['mshot'])){
-                if($_REQUEST['mshot'] == 'true'){
-                    return;
+            if( isset($_REQUEST['mshot']) && empty($seedprod_maintenancemode_options['comingsoon_bg_image'])){
+                $pass = get_option('seedprod_maintenancemode_mshot_pass');
+                if(!empty($pass)){
+                    if($_REQUEST['mshot'] == $pass){
+                        return;
+                    }
+                }else{
+                    if($_REQUEST['mshot'] == 'true'){
+                        return;
+                    }  
                 }
             }
 
