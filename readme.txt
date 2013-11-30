@@ -3,7 +3,7 @@ Contributors: johnnytee
 Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable, launch, landing page
 Requires at least: 3.3
-Tested up to: 3.6.0
+Tested up to: 3.7.1
 Stable tag: 1.5.2
 
 Work on your website behinds the scenes while you display a Maintenance Mode page to your visitors.
