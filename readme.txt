@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: johnnytee, maintenance mode
+Contributors: maintenance mode
 Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable, launch, landing page
 Requires at least: 3.3
