@@ -2,8 +2,8 @@
 /*
 Plugin Name: Ultimate Maintenance Mode
 Plugin URI: http://seedprod.com
-Description: Displays a screenshot of website with an overlayed window with the reason your site is down. 
-Version: 1.5.4
+Description: Displays a screenshot of website with an overlayed window with the reason your site is down.
+Version: 1.6.0
 Author: SeedProd
 Author URI: http://seedprod.com
 License: GPLv2
@@ -28,4 +28,3 @@ load_plugin_textdomain('ultimate-maintenance-mode',false, dirname( plugin_basena
 
 require_once('framework/framework.php');
 require_once('inc/config.php');
-
