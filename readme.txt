@@ -3,8 +3,8 @@ Contributors: johnnytee
 Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable, launch, landing page
 Requires at least: 3.3
-Tested up to: 4.1.0
-Stable tag: 1.6.0
+Tested up to: 4.2.0
+Stable tag: 1.6.1
 
 Work on your website behinds the scenes while you display a Maintenance Mode page to your visitors.
 
@@ -34,6 +34,7 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 * French(fr_FR) by fxbenard
 * Persian(fa_IR) by [rushearn](http://rushearn.com)
 * German(de_DE) by [Daniel Volz](daniel-volz.de)
+* Spanish(es_ES) by [WebHostingHub](http://www.webhostinghub.com/)
 
 == Installation ==
 
@@ -62,6 +63,10 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.6.1 =
+* WordPress 4.2 Compatibility
+* Added Spanish Translation
+
 = 1.6.0 =
 * WordPress 4.1 Compatibility
 
@@ -118,6 +123,10 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+= 1.6.1 =
+* WordPress 4.2 Compatibility
+* Added Spanish Translation
+
 = 1.6.0 =
 * WordPress 4.1 Compatibility
 
