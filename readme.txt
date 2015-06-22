@@ -29,7 +29,7 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 
 **Included Translations:**
 
-* Danish(da_DK) by Alexander Leo-Hansen
+* Danish(da_DK) by [Alexander Leo-Hansen](http://alexanderleohansen.dk/)
 * French(fr_FR) by fxbenard
 * German(de_DE) by [Daniel Volz](daniel-volz.de)
 * Italian(it_IT) by Luca Barbetti
