@@ -3,8 +3,8 @@ Contributors: johnnytee
 Donate link: http://seedprod.com/donate/
 Tags: maintenance,admin, administration, construction, under construction, maintenance mode, offline, unavailable, launch, landing page
 Requires at least: 3.3
-Tested up to: 4.2.0
-Stable tag: 1.6.1
+Tested up to: 4.2.2
+Stable tag: 1.6.2
 
 Work on your website behinds the scenes while you display a Maintenance Mode page to your visitors.
 
@@ -29,11 +29,12 @@ The **Ultimate Maintenance Mode** plugin displays a screenshot of your website w
 
 **Included Translations:**
 
-* Turkish(tr_TR) by [Hakan Er](http://hakanertr.wordpress.com)
-* Italian(it_IT) by Luca Barbetti
+* Danish(da_DK) by Alexander Leo-Hansen
 * French(fr_FR) by fxbenard
-* Persian(fa_IR) by [rushearn](http://rushearn.com)
 * German(de_DE) by [Daniel Volz](daniel-volz.de)
+* Italian(it_IT) by Luca Barbetti
+* Persian(fa_IR) by [rushearn](http://rushearn.com)
+* Turkish(tr_TR) by [Hakan Er](http://hakanertr.wordpress.com)
 * Spanish(es_ES) by [WebHostingHub](http://www.webhostinghub.com/)
 
 == Installation ==
