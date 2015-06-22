@@ -64,6 +64,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 
 
 == Changelog ==
+= 1.6.2 =
+* Added Danish Translation
+
 = 1.6.1 =
 * WordPress 4.2 Compatibility
 * Added Spanish Translation
@@ -124,6 +127,9 @@ The first time you view the maintenance mode page, the screenshot may not displa
 * Initial Launch
 
 == Upgrade Notice ==
+= 1.6.2 =
+* Added Danish Translation
+
 = 1.6.1 =
 * WordPress 4.2 Compatibility
 * Added Spanish Translation
